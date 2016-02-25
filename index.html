@@ -8,8 +8,14 @@
   <section>
 
     <h1>Just a header</h1>
+<!-- make sure elements id are unique. there should only be one; to grab multiple of something use .getElementsByTagName(" element ") or by getElementsbyClassName -->
+<!-- when you are querying for something isn't there you receive a null in the console -->
+<!-- it is more common to style in javascript when working with classes
+     inline classes override your style sheet -->
+<!-- becareful where you store the query as a variable, dont store style when you manipulate the, store the reference to the object  -->
 
-    <p id="main">Just a paragraph...</p>
+
+    <p id="main">Just a paragraph...</p> 
 
     <ul>
       <li class="odd">item 1</li>
